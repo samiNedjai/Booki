@@ -85,8 +85,6 @@ header{
 .logo{
     width: 61.09px;
     height: 19px;
-    position: relative;
-    right: 30px;
 }
     /*** Navigation ***/
 nav{
@@ -392,10 +390,6 @@ nav{
     padding: 20px 0px 20px 19px;
 }
 
-
-
-
-
 /********* Footer **********/
 .footer{
     display: flex;
@@ -428,9 +422,7 @@ nav{
     margin-top: 15px;
 }   
 
-
-
-/* la version responsive uniquement */
+/* la version responsive  */
 
 /* Medium devices (tablets) */
 @media (max-width: 1024px) {
@@ -476,15 +468,12 @@ nav{
     /* Activité Marseille */
     .activities-cards .card img{
         height: 200px;
-    }   
-
-    
+    }    
 }
     
     
 /* Small devices (phones */
 @media (max-width: 767.98px) {
-    /* ... */
 
     .main-container{  
         padding: 0;
@@ -498,7 +487,6 @@ nav{
 
     .logo{
         padding-top: 30px;
-        position: static;
     }
 
     nav{
